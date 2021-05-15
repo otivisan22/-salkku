@@ -1,0 +1,255 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #272727;
+  color: #d4aa7d;
+  text-align: center;
+  margin: 0;
+  padding: 50%;
+}
+
+.star-container {
+  width: 100%;
+}
+
+.moon {
+  top: 29%;
+  left: 28%;
+  position: absolute;
+  width: 106px;
+  height: 106px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  background: rgba(243, 226, 199, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 1) 0%,
+    rgba(182, 141, 76, 0.82) 51%,
+    rgba(233, 212, 179, 0.64) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(243, 226, 199, 1)),
+    color-stop(0%, rgba(193, 158, 103, 1)),
+    color-stop(51%, rgba(182, 141, 76, 0.82)),
+    color-stop(100%, rgba(233, 212, 179, 0.64))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 1) 0%,
+    rgba(182, 141, 76, 0.82) 51%,
+    rgba(233, 212, 179, 0.64) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 1) 0%,
+    rgba(182, 141, 76, 0.82) 51%,
+    rgba(233, 212, 179, 0.64) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 1) 0%,
+    rgba(182, 141, 76, 0.82) 51%,
+    rgba(233, 212, 179, 0.64) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 1) 0%,
+    rgba(182, 141, 76, 0.82) 51%,
+    rgba(233, 212, 179, 0.64) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
+  -webkit-animation: pulsemoon 1s linear infinite;
+  -moz-animation: pulsemoon 1s linear infinite;
+  -ms-animation: pulsemoon 1s linear infinite;
+  animation: pulsemoon 1s linear infinite;
+}
+
+.star {
+  top: 20%;
+  left: 35%;
+  position: absolute;
+  width: 0.6px;
+  height: 0.6px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: pulse2 1s linear infinite;
+  -moz-animation: pulse2 1s linear infinite;
+  -ms-animation: pulse2 1s linear infinite;
+  animation: pulse2 1s linear infinite;
+}
+
+.star-s1 {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: pulse 2.1s linear infinite;
+  -moz-animation: pulse1 2.1s linear infinite;
+  -ms-animation: pulse1 2.1s linear infinite;
+  animation: pulse1 2.1s linear infinite;
+}
+
+.star-s2 {
+  top: 68%;
+  left: 5%;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: pulse 1s linear infinite;
+  -moz-animation: pulse1 1s linear infinite;
+  -ms-animation: pulse1 1s linear infinite;
+  animation: pulse1 1s linear infinite;
+}
+
+.star-s3 {
+  top: 48%;
+  left: 75%;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: pulse2 3s linear infinite;
+  -moz-animation: pulse2 3s linear infinite;
+  -ms-animation: pulse2 3s linear infinite;
+  animation: pulse2 3s linear infinite;
+}
+
+.star-s4 {
+  top: 88%;
+  left: 75%;
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: pulse1 0.6s linear infinite;
+  -moz-animation: pulse1 0.6s linear infinite;
+  -ms-animation: pulse1 0.6s linear infinite;
+  animation: pulse1 0.6s linear infinite;
+}
+
+.star-s5 {
+  top: 45%;
+  left: 9%;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: pulse1 1.6s linear infinite;
+  -moz-animation: pulse1 1.6s linear infinite;
+  -ms-animation: pulse1 1.6s linear infinite;
+  animation: pulse1 1.6s linear infinite;
+}
+
+.star-s6 {
+  top: 55%;
+  left: 29%;
+  position: absolute;
+  width: 0.7px;
+  height: 0.7px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: pulse1 0.4s linear infinite;
+  -moz-animation: pulse1 0.4s linear infinite;
+  -ms-animation: pulse1 0.4s linear infinite;
+  animation: pulse1 0.4s linear infinite;
+}
+.star-s7 {
+  top: 14%;
+  left: 19%;
+  position: absolute;
+  width: 0.7px;
+  height: 0.7px;
+  background-color: #ff9f1c;
+  border-radius: 50%;
+  -webkit-animation: pulse1 0.6s linear infinite;
+  -moz-animation: pulse1 0.6s linear infinite;
+  -ms-animation: pulse1 0.6s linear infinite;
+  animation: pulse1 0.6s linear infinite;
+}
+
+.star-s8 {
+  top: 44%;
+  left: 39%;
+  position: absolute;
+  width: 1.7px;
+  height: 1.7px;
+  background-color: #ff9f1c;
+  border-radius: 50%;
+  -webkit-animation: pulse1 1.6s linear infinite;
+  -moz-animation: pulse1 1.6s linear infinite;
+  -ms-animation: pulse1 1.6s linear infinite;
+  animation: pulse1 1.6s linear infinite;
+}
+
+@keyframes pulsemoon {
+  100% {
+    -webkit-transform: scale(0.96);
+    -moz-transform: scale(0.96);
+    -o-transform: scale(0.96);
+    -ms-transform: scale(0.96);
+    transform: scale(0.96);
+  }
+}
+
+@keyframes pulse1 {
+  0% {
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(3.2);
+    -moz-transform: scale(3.2);
+    -o-transform: scale(3.2);
+    -ms-transform: scale(3.2);
+    transform: scale(3.2);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
